@@ -33,5 +33,5 @@ npm run lint          # ESLint: статичний аналіз
 
 ## Посилання на деплой
 
-- GitHub Pages: _заповнити після публікації_
-- Vercel: _заповнити після деплою_
+- GitHub Pages: https://prooooff.github.io/-HTMLCSSLABS/
+- Vercel: https://htmlcsslabs.vercel.app/
