@@ -1,0 +1,16 @@
+# Залежності
+node_modules/
+
+# Логи
+*.log
+npm-debug.log*
+
+# Операційна система
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Змінні середовища та секрети
+.env
+.env.*
+!.env.example

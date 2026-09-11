@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Навчальний статичний проєкт для лабораторної роботи 1: налаштування середовища фронтенд-розробки."
+    />
+    <title>Frontend Lab 1 — Налаштування середовища</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Frontend Lab 1</h1>
+      <button id="theme-toggle" class="button button--secondary" type="button" aria-pressed="false">
+        Перемкнути тему
+      </button>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="intro-title">
+        <h2 id="intro-title">Налаштування середовища розробки</h2>
+        <p id="description">
+          Це навчальний статичний проєкт, створений для лабораторної роботи з HTML, CSS та
+          JavaScript. Сторінка демонструє responsive layout, базову інтерактивність і перемикання
+          теми.
+        </p>
+        <button id="action-button" class="button button--primary" type="button">
+          Натисни мене
+        </button>
+        <p id="counter" class="counter" aria-live="polite">Лічильник: 0</p>
+      </section>
+
+      <aside class="info-block" aria-labelledby="info-title">
+        <h3 id="info-title">Інформаційний блок</h3>
+        <p>Корисні офіційні джерела з технологій, що використовуються в проєкті:</p>
+        <ul>
+          <li><a href="https://html.spec.whatwg.org/">HTML Living Standard</a></li>
+          <li><a href="https://www.w3.org/Style/CSS/">W3C CSS</a></li>
+          <li><a href="https://tc39.es/ecma262/">ECMAScript</a></li>
+          <li><a href="https://www.typescriptlang.org/docs/">TypeScript Handbook</a></li>
+        </ul>
+      </aside>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Frontend Lab 1</p>
+    </footer>
+  </body>
+</html>
